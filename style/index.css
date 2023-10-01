@@ -1,27 +1,20 @@
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecd4d4;
+
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+
+
+.bg-custom {
+    background-color: #dcacb4;
 }
 
-li {
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    padding: 10px;
+.navbar-brand{
+  font-family: 'IBM Plex Serif', serif;
+  margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #0056b3;
+main{
+  text-align: center;
 }
