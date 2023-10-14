@@ -1,17 +1,15 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #ecd4d4;
+  font-family: 'Arsenal', sans-serif;
+font-family: 'Bitter', serif;
+  background-color:  #3B4E8B
 
 }
 
-.div-img{
-  background-color: #fcfcfc;
-}
-
+h2 {color: #EDB343;}
 
 
 .bg-custom {
-    background-color: #dcacb4;
+    background-color:  #3B4E8B;
 }
 
 .navbar-brand{
