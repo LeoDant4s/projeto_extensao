@@ -8,6 +8,10 @@ font-family: 'Bitter', serif;
 h2 {color: #EDB343;}
 
 
+
+
+
+
 .bg-custom {
     background-color:  #3B4E8B;
 }
@@ -20,3 +24,10 @@ h2 {color: #EDB343;}
 main{
   text-align: center;
 }
+
+
+.card img{border-radius: 60%;
+width: 200 px;
+height: 200px;
+}
+
