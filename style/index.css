@@ -8,7 +8,10 @@ font-family: 'Bitter', serif;
 h2 {color: #EDB343;}
 
 
-
+.card {
+  justify-content: center;
+  margin: 20px;
+}
 
 
 
