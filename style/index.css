@@ -5,8 +5,11 @@ font-family: 'Bitter', serif;
 
 }
 
-h2 {color: #EDB343;}
+h2 {color: #EDB343;
+}
 
+.nicho{height: 50px
+}
 
 .card {
   justify-content: center;
