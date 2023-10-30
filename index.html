@@ -11,8 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--alterei a fonte pra arsenal-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Bitter:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Bitter:ital@1&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="mt-5">
@@ -20,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
         <!--Imagem da nav logo-->
         <!--Depois vc me explica sobre a cor da nav , n to conseguindo -->
-         <img src="./images/nav bar.png" style="max-width: 75%;">
+        <img src="./images/nav bar.png" style="max-width: 75%;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,12 +36,17 @@
                     <a class="nav-link" href="#roupas">Roupas e acessórios</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Comida</a>
+                    <a class="nav-link" href="#artesanato">Artesanato</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Artesanato</a>
+                    <a class="nav-link" href="#comida">Comida</a>
                 </li>
-                
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#outros">Outros</a>
+                </li>
+
+
             </ul>
         </div>
     </nav>
@@ -54,24 +60,26 @@
 
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/Imagem final 4.png" class="d-block w-100" >
-              </div>
-              
+                <div class="carousel-item active">
+                    <img src="./images/Imagem final 4.png" class="d-block w-100">
+                </div>
+
             </div>
-          </div>
+        </div>
 
 
 
         <!--Aí no caso, minha ideia era botar essas âncoras no começo de cada tipo de loja
         e separar elas por categoria, fica mais fácil do que fazendo filtro com elas e aí é só
         colocar os id no h2 e no nav pra chamar a âncora-->
-        
-        <div class="nicho"><h2 id="roupas"> Roupas e Acessórios</h2></div>
-    
-    
-    
-    <!--Espaçamento cards completo  (Mt-4)-->
+
+        <div class="">
+            <h1 id="roupas"> Roupas e Acessórios</h1>
+        </div>
+
+
+
+        <!--Espaçamento cards completo  (Mt-4)-->
         <div class="container mt-4">
             <!--Div onde vai botar os cards dentro, essa "col-md-6" faz os cards terem no máximo 2 por linha
             pq achei que 3 ficava mt pequeno e 1 fica bom só quando ele faz a responsividade mobile-->
@@ -80,35 +88,36 @@
             <!--Row - Div Cards -->
             <div class="row">
 
-                <div class="col-md-6 mb-4">   <!--Fileira esquerda dos cards-->
+                <div class="col-md-6 mb-4"> <!--Fileira esquerda dos cards-->
 
 
                     <div class="card">
                         <div class="card-body">
- 
-<!--Janette pijamas , Roupas-->              
 
-                            <img src="./images/logo.png"> 
+                            <!--Janette pijamas , Roupas-->
+
+                            <img src="./images/logo.png">
                             <h5 class="card-title"> Janette Pijamas
                             </h5>
                             <p class="card-text">
-                                
-                                Descrição  **Não temos**
+
+                                Descrição **Não temos**
 
                                 <br> Local: Feirinha do turista **Colocar localização**</br>
 
 
                             </p>
 
-         <!--instagram-->
+                            <!--instagram-->
 
                             <div class="d-flex justify-content-center align-items-center">
 
-                                 <!--Sem insta-->
-                                 
+                                <!--Sem insta-->
+
                                 <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
 
-                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
                                 </a>
 
 
@@ -124,443 +133,461 @@
 
 
 
-                    
-            
-                 
 
 
 
 
-</div>
 
 
 
-
-<div class="col-md-6 mb-4"> 
-
-<!--Lara for you , Roupas-->              
-      <div class="card">
-        <div class="card-body">
-                    <img src="./images/Perfil lara....png"> 
-                    <h5 class="card-title"> Lara for you
-                    </h5>
-                    <p class="card-text">
-                        
-                        Loja de vestuario feminino
-
-                        <br> Local: Feirinha do turista **Colocar localização**
-
-
-                    </p>
-
-    <!--instagram-->
-
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/laraforyou_ofc/" target="_blank">
-
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-
-                    </div>
                 </div>
-            </div>
 
 
-               
 
-            
-        </div></div><!-- fechamento fileira+div de cards-->
+
+                <div class="col-md-6 mb-4">
+
+                    <!--Lara for you , Roupas-->
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/Perfil lara....png">
+                            <h5 class="card-title"> Lara for you
+                            </h5>
+                            <p class="card-text">
+
+                                Loja de vestuario feminino
+
+                                <br> Local: Feirinha do turista **Colocar localização**
+
+
+                            </p>
+
+                            <!--instagram-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/laraforyou_ofc/" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div><!-- fechamento fileira+div de cards-->
             <div class="container mt-4">
 
 
-<center><h1>Artesanato</h1></center>
+                <center class="nicho">
+                    <h1 id="artesanato">Artesanato</h1>
+                </center>
 
 
 
-</div><!-- fechamento de segunda fileira esquerda + abertura da direita-->
-<div class="row">
-<div class="col-md-6 mb-4">
+            </div><!-- fechamento de segunda fileira esquerda + abertura da direita-->
+            <div class="row">
+                <div class="col-md-6 mb-4">
 
 
-        
-<!--Artesanato cia   (artesanato)-->    
 
-            <div class="card">
-                <div class="card-body">
+                    <!--Artesanato cia   (artesanato)-->
 
-                
-
-                    <img src="./images/logo.png"> 
-                    <h5 class="card-title"> Artesanato cia
-                    </h5>
-                    <p class="card-text">
-                        
-                        Artesanato 
-
-                        <br> Local: Feirinha do turista **Colocar localização**</br>
+                    <div class="card">
+                        <div class="card-body">
 
 
-                    </p>
 
-    <!--instagram-->
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Artesanato cia
+                            </h5>
+                            <p class="card-text">
 
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/art_esanatocia/" target="_blank">
+                                Artesanato
 
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-
-                    </div>
-                </div>
-            </div>
+                                <br> Local: Feirinha do turista **Colocar localização**</br>
 
 
-            
-          
- <!--Luuh flores e bordados   (Artesanato)-->       
-            <div class="card" >
-                <div class="card-body">
-             
+                            </p>
 
-                    <img src="./images/logo.png"> 
-                    <h5 class="card-title"> Luuh flores e bordados
-                    </h5>
-                    <p class="card-text">
-                        Loja atrativa para os turistas foco na fibra de coco ponto de cruz 
+                            <!--instagram-->
 
-                        <br> Local: Feirinha do turista **Colocar localização**</br>
+                            <div class="d-flex justify-content-center align-items-center">
 
+                                <a href="https://www.instagram.com/art_esanatocia/" target="_blank">
 
-                    </p>
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
 
-    <!--instagram, (Sem instagram relatado)-->
-
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-
-                </div>  <!--Fechamento da fileira esqueda dos cards-->
-
-
-        
-
-                     <div class="col-md-6 mb-4">    <!--Começo fileira direita cards-->
-   <!--Oxente turista, Roupas-->  
-                        <div class="card">
-                            <div class="card-body">
-            
-             
-            
-                                <img src="./images/logo.png"> 
-                                <h5 class="card-title">  Oxente turista
-                                </h5>
-                                <p class="card-text">
-                                    
-                                    Loja de artesanatos e roupas
-            
-                                    <br> Local: Feirinha do turista **Colocar localização**
-                                </p>
-            
-             <!--instagram (sem instagram relatado )-->
-            
-                                <div class="d-flex justify-content-center align-items-center">
-                                     
-                                    <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-            
-                                        <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                                    </a>
-            
-                                    <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                                        data-target="#modalLoja1">
-                                        Saiba mais
-                                    </button>
-            
-                                </div>
                             </div>
                         </div>
-               
-           
+                    </div>
+
+
+
+
+                    <!--Luuh flores e bordados   (Artesanato)-->
+                    <div class="card">
+                        <div class="card-body">
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Luuh flores e bordados
+                            </h5>
+                            <p class="card-text">
+                                Loja atrativa para os turistas foco na fibra de coco ponto de cruz
+
+                                <br> Local: Feirinha do turista **Colocar localização**</br>
+
+
+                            </p>
+
+                            <!--instagram, (Sem instagram relatado)-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div> <!--Fechamento da fileira esqueda dos cards-->
+
+
+
+
+                <div class="col-md-6 mb-4"> <!--Começo fileira direita cards-->
+                    <!--Oxente turista, Roupas-->
+                    <div class="card">
+                        <div class="card-body">
+
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Oxente turista
+                            </h5>
+                            <p class="card-text">
+
+                                Loja de artesanatos e roupas
+
+                                <br> Local: Feirinha do turista **Colocar localização**
+                            </p>
+
+                            <!--instagram (sem instagram relatado )-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
 
 
 
 
 
 
-    <!--Div onde vai botar os cards dentro, essa "col-md-6" faz os cards terem no máximo 2 por linha
+
+
+                    <!--Div onde vai botar os cards dentro, essa "col-md-6" faz os cards terem no máximo 2 por linha
     pq achei que 3 ficava mt pequeno e 1 fica bom só quando ele faz a responsividade mobile-->
 
 
-    
-   
- <!-- Eduardo artesanato   , artesanato-->          
-            <div class="card">
-                <div class="card-body">
-
-                 
-
-                    <img src="./images/logo.png"> 
-                    <h5 class="card-title">  Eduardo artesanato
-                    </h5>
-                    <p class="card-text">
-                        
-                        diversidade e harmonização de culturas
-
-                        <br> Local: Feirinha do turista **Colocar localização**</br>
 
 
-                    </p>
-
-    <!--instagram, (SEM INSTAGRAM RELATADO)-->
-
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-  </div>
+                    <!-- Eduardo artesanato   , artesanato-->
+                    <div class="card">
+                        <div class="card-body">
 
 
 
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Eduardo artesanato
+                            </h5>
+                            <p class="card-text">
 
-</div><!--fechamento de segunda fileira esquerda + abertura da direita-->
-<h1>Comida</h1>
+                                diversidade e harmonização de culturas
 
-
-<div class="row">
-  <div class="col-md-6 mb-4">
-
-            
-
- <!--Sunistituto--> 
-    <div class="card" >
-        <div class="card-body">
-
-      
-
-            <img src="./images/logo.png"> 
-            <h5 class="card-title"> 
-            </h5>
-            <p class="card-text">
-               Descrição
-
-                <br> Local: Feirinha do turista **Colocar localização**</br>
+                                <br> Local: Feirinha do turista **Colocar localização**</br>
 
 
-            </p>
+                            </p>
 
-<!--instagram, (Sem instagram relatado)-->
+                            <!--instagram, (SEM INSTAGRAM RELATADO)-->
 
-            <div class="d-flex justify-content-center align-items-center">
-                 
-                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-
-                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                </a>
-
-                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                    data-target="#modalLoja1">
-                    Saiba mais
-                </button>
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-</div>
-
-
-
-        </div><!--fechamento de segunda fileira esquerda + abertura da direita-->
-        <h1>Outros</h1>
-        
-        
-        <div class="row">
-          <div class="col-md-6 mb-4">
-
-<!--Liiart, Outros-->
-            <div class="card" >
-                <div class="card-body">
-            
-                       
-            
-                    <img src="./images/logo.png"> 
-                    <h5 class="card-title"> Liiiart
-                    </h5>
-                    <p class="card-text">
-                        **NÃO TEMOS DESCRIÇÃO**
-            
-                        <br> Local: Feirinha do turista **Colocar localização**</br>
-            
-            
-                    </p>
-            
-            <!--instagram, (Sem instagram relatado)-->
-            
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-            
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-            
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-            
-                    </div>
-                </div>
-            </div>
-
- <!--multivendas e variedades (calçados perfumes roupas e bijuterias)  -->     
-            <div class="card" >
-                <div class="card-body">
-
-              
-
-                    <img src="./images/logo.png"> 
-                    <h5 class="card-title"> Multivendas e variedades
-                    </h5>
-                    <p class="card-text">
-                        
-                        Variedades
-
-                        <br> Local: Orla **Colocar localização**
-                    </p>
-
-    <!--instagram (sem instagram relatado)-->
-
-                    <div class="d-flex justify-content-center align-items-center">
-                         
-                        <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
-
-                            <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                        </a>
-
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                            data-target="#modalLoja1">
-                            Saiba mais
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-
-                       
-            
-          </div>
-
-
-
-<!--Oxente turismo, Outros-->
-            <div class="col-md-6 mb-4">
-
-             <div class="card">
-                            <div class="card-body">
-                                <img src="./images/Oxente turismo .png"> 
-                                <h5 class="card-title">Oxente turismo
-                                     </h5>
-                                 <p class="card-text">Agēncia de turismo passeios no estado de sergipe  
-
-                                      <br> Local: Feirinha do turista **Colocar localização**
-                                    </p>
-
-
-        <!-- instagram-->          
                             <div class="d-flex justify-content-center align-items-center">
-                                
-                               <a href="https://www.instagram.com/oxenteturismoaju/" target="_blank">
 
-                                   <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                               </a>
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
 
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLoja2">
-                                Saiba mais
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
 
-                
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
 
-        <!--shekna variedades--> 
-                <div class="card" >
-                    <div class="card-body">
-    
-               
-    
-                        <img src="./images/logo.png"> 
-                        <h5 class="card-title"> Shekna variedades
-                        </h5>
-                        <p class="card-text">
-                            
-                            Bordados em geral camisas de aracaju e acessorios e pelúcias
-                            <br> Local: Feirinha do turista **Colocar localização**
-    
-    
-                        </p>
-                    
-    
-        <!--instagram-->
-    
-                        <div class="d-flex justify-content-center align-items-center">
-                             
-                            <a href="https://www.instagram.com/shekna_variedades_/" target="_blank">
-    
-                                <img src="./images/instagram.png" alt="Instagram" class="img-fluid" style="max-width: 30px; max-height: 30px;">
-                            </a>
-    
-                            <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
-                                data-target="#modalLoja1">
-                                Saiba mais
-                            </button>
-    
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
-             </div> <!--Fechamento Fileira direita-->
-             </div><!--Fechamento row -->
-        </div>  <!--Fechamento mt-4-->
+
+
+            </div><!--fechamento de segunda fileira esquerda + abertura da direita-->
+            <div class="nicho">
+                <h1 id="comida">Comida</h1>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+
+
+
+                    <!--Sunistituto-->
+                    <div class="card">
+                        <div class="card-body">
+
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title">
+                            </h5>
+                            <p class="card-text">
+                                Descrição
+
+                                <br> Local: Feirinha do turista **Colocar localização**</br>
+
+
+                            </p>
+
+                            <!--instagram, (Sem instagram relatado)-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div><!--fechamento de segunda fileira esquerda + abertura da direita-->
+            <div class="nicho">
+                <h1 id="outros">Outros</h1>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+
+                    <!--Liiart, Outros-->
+                    <div class="card">
+                        <div class="card-body">
+
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Liiiart
+                            </h5>
+                            <p class="card-text">
+                                **NÃO TEMOS DESCRIÇÃO**
+
+                                <br> Local: Feirinha do turista **Colocar localização**</br>
+
+
+                            </p>
+
+                            <!--instagram, (Sem instagram relatado)-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--multivendas e variedades (calçados perfumes roupas e bijuterias)  -->
+                    <div class="card">
+                        <div class="card-body">
+
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Multivendas e variedades
+                            </h5>
+                            <p class="card-text">
+
+                                Variedades
+
+                                <br> Local: Orla **Colocar localização**
+                            </p>
+
+                            <!--instagram (sem instagram relatado)-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/NOMEDOUSUÁRIO" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!--Oxente turismo, Outros-->
+                <div class="col-md-6 mb-4">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./images/Oxente turismo .png">
+                            <h5 class="card-title">Oxente turismo
+                            </h5>
+                            <p class="card-text">Agēncia de turismo passeios no estado de sergipe
+
+                                <br> Local: Feirinha do turista **Colocar localização**
+                            </p>
+
+
+                            <!-- instagram-->
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/oxenteturismoaju/" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modalLoja2">
+                                    Saiba mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--shekna variedades-->
+                    <div class="card">
+                        <div class="card-body">
+
+
+
+                            <img src="./images/logo.png">
+                            <h5 class="card-title"> Shekna variedades
+                            </h5>
+                            <p class="card-text">
+
+                                Bordados em geral camisas de aracaju e acessorios e pelúcias
+                                <br> Local: Feirinha do turista **Colocar localização**
+
+
+                            </p>
+
+
+                            <!--instagram-->
+
+                            <div class="d-flex justify-content-center align-items-center">
+
+                                <a href="https://www.instagram.com/shekna_variedades_/" target="_blank">
+
+                                    <img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+                                        style="max-width: 30px; max-height: 30px;">
+                                </a>
+
+                                <button type="button" class="btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#modalLoja1">
+                                    Saiba mais
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div> <!--Fechamento Fileira direita-->
+            </div><!--Fechamento row -->
+        </div> <!--Fechamento mt-4-->
     </main>
 
 
@@ -569,7 +596,7 @@
 
 
 
-                                                    <!--Pop ups-->
+    <!--Pop ups-->
 
 
 
